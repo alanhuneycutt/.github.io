@@ -2,96 +2,139 @@
 <html>
 
 <head>
-  <title>Alan Huneycutt | Data Analysis & Location Intelligence</title>
+<title>Alan Huneycutt | Data Analysis & Location Intelligence</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-    }
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 40px;
+background-color: #f4f4f4;
+color: #333;
+line-height: 1.6;
+}
 
-    header {
-      margin-bottom: 40px;
-    }
+header {
+margin-bottom: 40px;
+}
 
-    nav a {
-      margin-right: 20px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-    }
+nav a {
+margin-right: 20px;
+text-decoration: none;
+font-weight: bold;
+color: #333;
+}
 
-    section {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 6px;
-    }
+section {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 6px;
+}
 
-    h1 {
-      color: #2c3e50;
-      margin-bottom: 5px;
-    }
+h1 {
+color: #2c3e50;
+margin-bottom: 5px;
+}
 
-    h2 {
-      color: #2c3e50;
-    }
+h2 {
+color: #2c3e50;
+}
 
-    .subtitle {
-      font-size: 18px;
-      margin-top: 0;
-    }
-  </style>
+.subtitle {
+font-size: 18px;
+margin-top: 0;
+}
+
+.project-link {
+display:inline-block;
+margin-top:10px;
+padding:10px 15px;
+background:#2c3e50;
+color:white;
+text-decoration:none;
+border-radius:4px;
+}
+
+.project-link:hover {
+background:#1a242f;
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Alan Huneycutt</h1>
-    <p class="subtitle">Data Analysis | Location Intelligence | Market Insight</p>
+<header>
+<h1>Alan Huneycutt</h1>
+<p class="subtitle">Data Analysis | Location Intelligence | Market Insight</p>
 
-    <nav>
-      <a href="#">Home</a>
-      <a href="#project">Project</a>
-      <a href="#about">About</a>
-    </nav>
-  </header>
+<nav>
+<a href="#">Home</a>
+<a href="#projects">Projects</a>
+<a href="#about">About</a>
+</nav>
+</header>
 
- <section id="projects">
+
+<section id="projects">
 
 <h2>Projects</h2>
 
-<h3>Commercial Equipment Brand Distribution</h3>
+<h3>Heavy Equipment Sales & Rental Businesses – Southeast U.S.</h3>
 
 <p>
-Following a recent business conversation, I explored how publicly available spatial data
-could be used to visualize the geographic distribution of commercial equipment brands.
+This project visualizes heavy equipment sales and rental businesses across the Southeastern United States. 
+The dataset was compiled from publicly available federal business records and filtered using NAICS industry 
+classifications relevant to heavy equipment markets.
 </p>
 
 <p>
-This proof-of-concept demonstrates how data analysis combined with location intelligence
-can reveal market presence and potential opportunity areas.
+Business addresses were geocoded to generate geographic coordinates and mapped using ArcGIS Online to 
+illustrate the regional distribution of equipment-related businesses.
 </p>
-
-<h4>Project Deliverable</h4>
 
 <p>
-<a href="commercial-equipment-map.pdf" target="_blank">View Map (PDF)</a>
+The analysis focuses on the following states:
 </p>
+
+<ul>
+<li>North Carolina</li>
+<li>South Carolina</li>
+<li>Georgia</li>
+<li>Florida</li>
+<li>Alabama</li>
+<li>Tennessee</li>
+<li>Virginia</li>
+</ul>
+
+<p>
+This type of spatial visualization can help reveal regional market concentration, identify clusters of 
+equipment-related businesses, and highlight potential areas of opportunity for equipment financing and 
+related services.
+</p>
+
+<a class="project-link" href="https://arcg.is/0aOOej" target="_blank">
+View Interactive Map
+</a>
 
 </section>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I am interested in using data, mapping, and analysis to turn raw information into useful
-      business insight. This page highlights an example of how spatial thinking can support
-      decision-making and opportunity identification.
-    </p>
-  </section>
+
+<section id="about">
+
+<h2>About</h2>
+
+<p>
+I am interested in applying data analysis and geographic information systems (GIS) to transform raw 
+data into actionable business insights. My work focuses on identifying patterns, visualizing geographic 
+trends, and exploring how spatial analysis can support better decision-making.
+</p>
+
+<p>
+This project demonstrates how publicly available business data can be combined with geospatial tools 
+to explore market distribution and potential economic activity within a specific industry.
+</p>
+
+</section>
 
 </body>
 
